@@ -1,0 +1,6 @@
+[Bb]uild
+[Bb]uild-*
+_[Bb]uild*
+[Pp]ublish*
+*.zip
+.vscode

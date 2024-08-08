@@ -1,0 +1,93 @@
+@import url("cloud.css");
+
+/*
+    To change the document layout
+*/
+div.related {
+    max-width: 13in;
+}
+
+div.document {
+
+    max-width: 13in;
+    background: #F2F2F2;
+}
+
+/* ----------------End of Document layout Change ---------------------------- */
+
+code.literal {
+    background-color: rgba(0, 0, 0, .075);
+    border: 1px solid rgba(165, 28, 28, 0.475);
+    padding: 0px 4px;
+    margin: 1px;
+    -moz-border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -o-border-radius: 4px;
+    -ms-border-radius: 4px;
+    border-radius: 4px;
+}
+
+/* change .. note:: styling background color  */
+div.admonition.note,
+p.deprecated {
+    background: #d5eeff;
+    font-size: 0.88em;
+    line-height: 1.7045454545454546em;
+    margin: 0.705em 0 0.705em 0;
+    padding: .5em 1em;
+    border: 1px solid rgba(0, 0, 0, .05);
+    border-width: 1px 0;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -o-border-radius: 5px;
+    -ms-border-radius: 5px;
+    border-radius: 5px;
+
+    background-position: .6em .5em;
+    background-size: auto 1.58em;
+    background-repeat: no-repeat;
+    background-image: url("icon-note.png");
+}
+
+.highlight .hll {
+    background-color: #79d5db;
+}
+
+table.align-default {
+    margin-left: unset;
+    margin-right: auto;
+}
+
+/* To handle .. container:: directive */
+div.leftside {
+    width: 30%;
+    padding: 0px 3px 0px 0px;
+    float: left;
+}
+
+div.centerside {
+    width: 30%;
+    padding: 0px 3px 0px 0px;
+    float: inherit;
+}
+
+div.rightside {
+    width: 30%;
+    padding: 0px 3px 0px 0px;
+    float: right;
+}
+/* End ofTo handle .. container:: directive */
+
+/* To change the content background coler*/
+/* div.body {
+    background-color: #fff7e0
+} */
+
+/* My Custom Class */
+.light-gray-bg {
+    background-color: rgb(241, 240, 240);
+    padding: 10px;
+    border-left: 5px solid gray;
+  }
+
+@import url("rcky-customStyle.css");

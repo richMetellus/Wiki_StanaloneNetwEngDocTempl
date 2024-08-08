@@ -1,0 +1,33 @@
+.rcky-font-color-red {
+    color: red;
+}
+.rcky-font-color-green {
+    color: green;
+}
+.rcky-font-color-lightgreen {
+    color: lightgreen;
+}
+.rcky-font-color-blue {
+    color: blue;
+}
+
+.rcky-font-color-lightblue {
+    color: lightblue;
+}
+
+.rcky-font-color-gold-accent-4 {
+    color: rgb(255, 192, 0);
+}
+
+.rcky-yellow-highlight {
+    background-color: yellow;
+}
+
+.rcky-greenyellow-highlight {
+    background-color: greenyellow;
+}
+
+.rcky-green-highlight {
+    background-color: green;
+}
+
